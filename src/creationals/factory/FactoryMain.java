@@ -15,7 +15,6 @@ public class FactoryMain {
         square.draw();
         triangle.draw();
 
-
         ShapeAbstractFactory shapeAbstractFactory = new ShapeAbstractFactory();
 
         Shape yellowSquare = shapeAbstractFactory.createShape(ShapeType.SQUARE,"yellow");

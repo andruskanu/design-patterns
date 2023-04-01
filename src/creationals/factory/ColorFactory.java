@@ -6,5 +6,4 @@ public class ColorFactory {
         shape.setColor(color);
         return shape;
     }
-
 }

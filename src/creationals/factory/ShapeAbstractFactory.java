@@ -9,5 +9,4 @@ public class ShapeAbstractFactory {
         Shape shape = shapeFactory.createShape(type);
         return colorFactory.createShapeWithColor(shape, color);
     }
-
 }
