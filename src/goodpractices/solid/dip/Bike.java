@@ -6,5 +6,4 @@ public class Bike implements LandVehicle{
     public void ride(){
         System.out.println("Riding the bike");
     }
-
 }
